@@ -22,7 +22,7 @@ router.get('/mwtest', function(req, res, next){
 
 
 //김수현 branch
-
+/*email*/
 
 //남종헌 branch
 router.get('/nam', function(req ,res , next){
