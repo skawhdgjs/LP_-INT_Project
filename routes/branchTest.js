@@ -11,7 +11,9 @@ router.get('/', function(req, res, next) {
 
 
 //정민우 branch
-
+router.get('/minwoo', function(req, res){
+  res.send('minwooooo');
+});
 
 
 
