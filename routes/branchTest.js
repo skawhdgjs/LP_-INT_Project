@@ -22,7 +22,9 @@ router.get('/minwoo', function(req, res, next){
 
 
 //김수현 branch
-
+router.get('/suhyeon', function(req, res, next){
+  res.send('su-hyeon.kim@linecorp.com');
+});
 
 
 //남종헌 branch
