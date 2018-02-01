@@ -1,4 +1,4 @@
-var express = require('express');
+﻿var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
@@ -7,12 +7,25 @@ router.get('/', function(req, res, next) {
 });
 
 //박성수 branch
+console.log("hey day!");
+/*재밌다*/
+///ㅅㄷㄴㅅㄷㄹㄷㄹ
+
+//정민우 branch
+
+
+
+>>>>>>> dev
 
 //김율리 branch
 
 
 
 //김수현 branch
+
+
+
+//남종헌 branch
 
 
 module.exports = router;
