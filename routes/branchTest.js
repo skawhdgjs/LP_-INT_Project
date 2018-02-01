@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 //박성수 branch
-
+console.log("hello world!!");
 
 
 //정민우 branch
