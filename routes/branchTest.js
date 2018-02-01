@@ -28,10 +28,6 @@ router.get('/suhyeon', function(req, res, next){
   res.send('su-hyeon.kim@linecorp.com');
 });
 
-<<<<<<< HEAD
-//남종현 branch
-=======
-
 //남종헌 branch
 router.get('/nam', function(req ,res ,next){
   res.send('heoo')
