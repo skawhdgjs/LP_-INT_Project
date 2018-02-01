@@ -21,7 +21,7 @@ router.get('/', function(req, res, next) {
 
 //김수현 branch
 router.get('/suhyeon',(req,res)=>{
-  res.send("test");
+  res.send("kkkk");
 })
 
 
