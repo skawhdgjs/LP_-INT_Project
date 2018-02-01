@@ -21,7 +21,7 @@ router.get('/', function(req, res, next) {
 
 //남종헌 branch
 router.get('/nam', function(req ,res ,next){
-  res.send('hello')
+  res.send('heoo')
 })
 
 module.exports = router;
