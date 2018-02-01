@@ -20,8 +20,19 @@ router.get('/', function(req, res, next) {
 
 
 //김수현 branch
+<<<<<<< HEAD
 
 
 //남종헌 branch
+=======
+router.get('/suhyeon',(req,res)=>{
+  res.send("test");
+})
+
+
+//남종헌 branch
+
+
+>>>>>>> su-hyeon-branch
 
 module.exports = router;
