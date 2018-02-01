@@ -20,7 +20,7 @@ router.get('/', function(req, res, next) {
 
 
 //김수현 branch
-/*email*/
+
 
 //남종헌 branch
 
