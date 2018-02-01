@@ -13,10 +13,11 @@ router.get('/', function(req, res, next) {
 
 
 //김율리 branch
-
+router.get('/', function(req, res, next){
+  res.send('world')
+})
 
 //김수현 branch
-
 
 
 //남종현 branch
