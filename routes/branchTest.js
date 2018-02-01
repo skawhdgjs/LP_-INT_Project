@@ -29,7 +29,7 @@ router.get('/minwoo', function(req, res){
 <<<<<<< HEAD
 =======
 router.get('/suhyeon',(req,res)=>{
-  res.send("test");
+  res.send("kkkk");
 })
 
 
