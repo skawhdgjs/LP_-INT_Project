@@ -8,25 +8,11 @@ router.get('/', function(req, res, next) {
 
 //박성수 branch
 
-
-
-//정민우 branch
-router.get('/minwoo', function(req, res){
-  res.send('minwooooo');
-});
-
-
-
 //김율리 branch
 
 
 
 //김수현 branch
 
-
-//남종헌 branch
-router.get('/nam',function(req ,res, next){
-  res.send('he!!!')
-})
 
 module.exports = router;
