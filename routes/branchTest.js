@@ -7,7 +7,11 @@ router.get('/', function(req, res, next) {
 });
 
 //박성수 branch
-
+router.get('/sungsu', (req, res) =>
+{
+  res.send('hi! my name is sungsu!');
+});
+//comment
 
 //정민우 branch
 router.get('/minwoo', function(req, res, next){
