@@ -7,13 +7,12 @@ router.get('/', function(req, res, next) {
 });
 
 //박성수 branch
-
-
+console.log("hey day!");
+/*재밌다*/
+///ㅅㄷㄴㅅㄷㄹㄷㄹ
 
 //정민우 branch
-router.get('/minwoo', function(req, res){
-  res.send('minwooooo');
-});
+
 
 
 
@@ -25,8 +24,5 @@ router.get('/minwoo', function(req, res){
 
 
 //남종헌 branch
-router.get('/nam',function(req ,res, next){
-  res.send('he')
-})
 
 module.exports = router;
