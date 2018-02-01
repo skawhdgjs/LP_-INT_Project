@@ -7,18 +7,16 @@ router.get('/', function(req, res, next) {
 });
 
 //박성수 branch
-router.get('/sungsu', (req, res) =>
-{
-  res.send('hi! my name is sungsu!');
-});
-//comment
+
+
 
 //정민우 branch
-router.get('/minwoo', function(req, res, next){
-  res.send('hi hello');
-});
+
+
+
 
 //김율리 branch
+
 
 
 //김수현 branch
@@ -26,8 +24,5 @@ router.get('/minwoo', function(req, res, next){
 
 
 //남종헌 branch
-router.get('/nam', function(req ,res ,next){
-  res.send('hello!!!');
-});
 
 module.exports = router;
