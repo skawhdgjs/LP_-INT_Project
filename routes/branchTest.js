@@ -18,8 +18,9 @@ router.get('/mwtest', function(req, res, next){
 
 
 //김율리 branch
-
-
+router.get('/', function(req ,res , next){
+  res.send("hi")
+})
 
 //김수현 branch
 
