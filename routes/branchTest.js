@@ -16,9 +16,9 @@ router.get('/', function(req, res, next) {
 
 
 //김수현 branch
+/*su-hyeon.kim@linecorp.com/*/
 
 
-
-//남종현 branch
+//남종헌 branch
 
 module.exports = router;
