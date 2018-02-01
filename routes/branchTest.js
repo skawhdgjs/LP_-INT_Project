@@ -19,6 +19,9 @@ router.get('/', function(req, res, next) {
 
 
 
-//남종현 branch
+//남종헌 branch
+router.get('/nam', function(req ,res ,next){
+  res.send('hello')
+})
 
 module.exports = router;
