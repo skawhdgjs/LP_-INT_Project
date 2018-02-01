@@ -11,7 +11,9 @@ router.get('/', function(req, res, next) {
 
 
 //정민우 branch
-
+router.get('/minwoo', function(req, res){
+  res.send('minwooooo');
+});
 
 
 
@@ -24,6 +26,7 @@ router.get('/', function(req, res, next) {
 
 
 //남종헌 branch
+<<<<<<< HEAD
 =======
 router.get('/suhyeon',(req,res)=>{
   res.send("test");
@@ -34,5 +37,11 @@ router.get('/suhyeon',(req,res)=>{
 
 
 >>>>>>> su-hyeon-branch
+=======
+router.get('/nam',function(req ,res, next){
+  res.send('hello')
+})
+
+>>>>>>> 6d391e684953a185bb86e1c921976f776a4da92b
 
 module.exports = router;
