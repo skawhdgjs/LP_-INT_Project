@@ -7,6 +7,10 @@ router.get('/', function(req, res, next) {
 });
 
 //박성수 branch
+<<<<<<< HEAD
+=======
+
+>>>>>>> 96204e88fd411ac173da0fd8826a1cb922ddf246
 console.log("hey day!");
 /*재밌다*/
 ///ㅅㄷㄴㅅㄷㄹㄷㄹ
@@ -15,7 +19,11 @@ console.log("hey day!");
 
 
 
+<<<<<<< HEAD
 >>>>>>> dev
+=======
+
+>>>>>>> 96204e88fd411ac173da0fd8826a1cb922ddf246
 
 //김율리 branch
 
@@ -27,5 +35,8 @@ console.log("hey day!");
 
 //남종헌 branch
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 96204e88fd411ac173da0fd8826a1cb922ddf246
 module.exports = router;
